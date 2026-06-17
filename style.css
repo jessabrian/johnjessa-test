@@ -1,6 +1,12 @@
 /* Container that mimics your absolute positioned image dimensions */
 .rsvp-form-container {
-    position: absolute;
+    position: relative;
+	display:block;
+	width: 100%;            /* Matches your exact image width */
+    height: 100;           /* Matches your exact image height */
+    margin: 40px auto;        /* Centers it perfectly horizontally on your page layout */
+    box-sizing: border-box;
+    clear: both;
     box-sizing: border-box;
     padding: 20px; /* Slight buffer spacing */
 }
